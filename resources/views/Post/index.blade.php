@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('pages.layouts.app')
 
 @section('content')
 <style>
@@ -6,7 +6,7 @@
         /* padding: 10px 20px; */
         font-size: 15px;
         border-radius: 10px;
-        width: 15%;
+        width: 15%;php 
         margin-bottom: 5px;
         margin-top:10px;
     }

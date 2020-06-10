@@ -19,6 +19,6 @@ Route::resource('posts', 'PostsController');
 // Route::resource('savedpost', 'PostsController')->only('store');
 // Route::resource('allposts', 'PostsController')->only('index');
 // Route::get('/index', 'RegistersController@index'); 
-// Auth::routes();
+Auth::routes();
 
-// Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
